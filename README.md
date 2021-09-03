@@ -1,6 +1,6 @@
-rorrM
+rorriM
 ====
 
-This is chrome extention that invert horizontally.
+This is a chrome extention that invert horizontally.
 
 
