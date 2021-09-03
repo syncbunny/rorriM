@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "rroriM",
+  "version": "1.0.0.0",
+
+  "icons": {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["tabs","contextMenus"]
+}
